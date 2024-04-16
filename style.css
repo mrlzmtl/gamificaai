@@ -527,4 +527,14 @@ footer .container-grid {
     footer img {
         margin-bottom: 100px;
     }
+
+    footer p {
+        width: 100%;
+        text-align: center;
+        margin-bottom: 40px;
+    }
+    
+    .redes-sociais {
+        align-items: center;
+    }
 }
