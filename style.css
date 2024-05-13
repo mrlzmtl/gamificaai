@@ -47,6 +47,7 @@ header div.container-grid {
     justify-content: space-between;
     align-items: center;
 
+    
 }
 
 header img {
@@ -250,7 +251,7 @@ h2 {
     height: 100%;
     width: 100%;
 
-    background-color: #47208bc2;
+    background-color: rgba(71, 32, 139, 0.7);
 
     position: absolute;
     top: 0;
@@ -450,6 +451,14 @@ footer .container-grid {
 
 .icones-redes a:hover {
     color: var(--laranja-gamifica);
+}
+
+.menu-fechado {
+    display: none;
+}
+
+#icone-barras {
+    display: none;
 }
 
 @media screen and (max-width: 1300px) {
